@@ -2,7 +2,7 @@ Boas vindas ao meu respositório de estudos HTML para reproduzir meu perfil do l
 
 
 
-<img src="/img/profile_linkedin.jpg"> 
+<img src="/img/profileLinkedin.jpg"> 
 
 
 
