@@ -1,4 +1,11 @@
-Boas vindas ao meu respositório de estudos HTML.
+Boas vindas ao meu respositório de estudos HTML para reproduzir meu perfil do linkedin.
+
+
+
+<img src="/img/profile_linkedin.jpg"> 
+
+
+
 
 
 Neste projeto, vou ultilizar:
