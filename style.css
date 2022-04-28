@@ -1,53 +1,24 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
+body {
+    background-color: rgb(104, 39, 255);
+    box-sizing: border-box;
 }
 
-.global-icon {
-    display: flex;
-    border: 5px solid rgb(226, 19, 19);
+header {
+    background-color: yellow;
+    height: 100px;
 }
 
-.bi-house-door-fill {
-    color: black;
+main {
+    background-color: rgb(124, 188, 162);
+    height: 100px;
 }
 
-.bi-linkedin {
-    color: blue;
+aside {
+    background-color: rgb(114, 92, 145);
+    height: 100px;
 }
 
-.bi-people-fill {
-    color: black;
-}
-
-.body {
-    background-color: rgb(255, 255, 255);
-    /* 1. Adicione uma cor de fundo na página. */
-    border: 5px solid black;
-}
-
-.header {
-    /* border: 5px solid rgb(226, 19, 19); */
-}
-
-.cabecalho {
-    /* 2. Adicione uma barra superior com um título */
-    /* border: 5px solid green; */
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    color: blanchedalmond;
-}
-
-.footer {
-    text-align: center;
-    border: 5px solid goldenrod;
-}
-
-.minha_img {
-    border: 5px solid rgb(20, 15, 2);
-    padding: 15px;
-    border-radius: 50%;
-}
-
-.minhas_listas {
-    border: 5px solid rgb(19, 226, 98);
+footer {
+    background-color: rgb(194, 193, 198);
+    height: 100px;
 }
