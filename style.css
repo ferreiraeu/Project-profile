@@ -4,21 +4,70 @@ body {
 }
 
 header {
-    background-color: yellow;
-    height: 100px;
+    background-color: rgb(255, 255, 255);
+    /* border: 5px solid red; */
+    grid-column: 1/4;
+    grid-row: 1/1;
+    width: auto;
+}
+
+.div-img-header {
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px solid red;
+}
+
+#nav1 {
+    background-color: rgb(4, 195, 248);
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#nav2 {
+    background-color: rgb(4, 195, 248);
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#nav3 {
+    background-color: rgb(4, 195, 248);
+    grid-column: 3/4;
+    grid-row: 4/6;
 }
 
 main {
     background-color: rgb(124, 188, 162);
-    height: 100px;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    text-align: center;
+    width: auto;
 }
 
 aside {
     background-color: rgb(114, 92, 145);
-    height: 100px;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 4/6;
 }
 
 footer {
     background-color: rgb(194, 193, 198);
-    height: 100px;
+    grid-column: 1/5;
+    grid-row: 6/6;
+    text-align: center;
+}
+
+
+/* (fr) representa uma fração do espaço disponível no container do grid.  */
+
+
+/* Vh visão da altura */
+
+.container {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 5vh 40vh 30vh 25vh;
+    /* Obs: dividinho as linhas horizontais em 4 então temos 5 areas */
+    text-align: center;
+    grid-gap: 5px;
 }
