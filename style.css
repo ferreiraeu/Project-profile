@@ -1,17 +1,21 @@
 .container-body {
     display: grid;
-    background-color: #ffffff;
+    background-color: #f4eeee;
 }
 
 #cabecalho {
+    display: flex;
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(137, 130, 42);
+    background-color: rgb(48, 46, 46);
+    color: rgb(217, 213, 213);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .img-container {
-    background-color: #ffffff;
-    padding: 10px;
+    background-color: #6090A8;
+    padding: 1%;
     text-align: center;
 }
 
@@ -35,14 +39,36 @@
     color: rgb(40, 39, 17);
 }
 
-.link-linkedin {}
+.link-linkedin {
+    color: #f4eeee;
+}
 
-#depoimento-container {
+.div-linkedin {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+}
+
+#container-section {
+    display: flex;
+}
+
+.copyright-container {
+    color: #919699;
+    display: flex;
 }
 
 #rodape {
-    border: 5px solid rgb(245, 245, 245);
+    display: flex;
+    background-color: #181b1d;
+    color: aliceblue;
 }
+
+.hr1 {
+    padding: 1px;
+    height: 5%;
+    background-image: linear-gradient(to right, transparent, #6090A8, transparent);
+}
+
+
+/* media queries */
+
+@media (max-width: 768px) {}
